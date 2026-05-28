@@ -1,4 +1,4 @@
-# Parsed DDF Column with Nested SUBSTRING_INDEX 
+# Nested SUBSTRING_INDEX DDF Parser 
  
 SQL view for parsing semi-structured DSPC inspection result strings into structured measurement and verdict columns. The view takes `DDF_Result` and `DDFDBP_Result` columns and splits them into individual columns for each measurement criteria, along with their corresponding verdict columns. Query output feeds a Power BI data model for process control monitoring, failure analysis, and station-level quality reporting.
 
